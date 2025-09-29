@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 2 - Contact Form + Table</title>
+</head>
+<body>
+  <!-- Header with navigation links -->
+  <header>
+    <nav>
+      <a href="../day1-static-page/index.html">Home</a> |
+      <a href="https://www.example.com" target="_blank">External Link</a>
+    </nav>
+  </header>
+
+  <!-- Images -->
+  <section>
+    <h2>Our Team</h2>
+    <img src="team1.jpg" alt="Team Member 1" width="150">
+    <img src="team2.jpg" alt="Team Member 2" style="max-width:100%;">
+  </section>
+
+  <!-- Contact Form -->
+  <section>
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+      <label for="date">Preferred Contact Date:</label>
+      <input type="date" id="date" name="date"><br><br>
+
+      <label>
+        <input type="checkbox" name="subscribe"> Subscribe to newsletter
+      </label><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Contact Table -->
+  <section>
+    <h2>Contact Information</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Department</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Support</td>
+          <td>support@example.com</td>
+          <td>+91-9876543210</td>
+        </tr>
+        <tr>
+          <td>Sales</td>
+          <td>sales@example.com</td>
+          <td>+91-9123456780</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Example Company</p>
+  </footer>
+</body>
+</html>

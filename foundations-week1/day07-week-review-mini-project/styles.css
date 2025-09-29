@@ -1,0 +1,44 @@
+* {
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header h1 {
+  font-size: 3rem;   
+  font-weight: bold;
+  margin: 0;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+}
